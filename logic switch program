@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    int day = s.nextInt();
+	    switch(day){
+	        case 1:
+	        case 2:
+	        case 3:
+	       case  4:
+	       case 5:
+	        
+	        System.out.println("collage day");
+	      
+	      break;
+	     
+	        
+	        case 6:
+	            case 7:
+	               
+	           System.out.println("half holyday = and tommarow full holyday");
+break;
+default :
+System.out.println("please ivalide int");
+break;
+	    }
+	
+	}
+}
+
+
+// you are put the value 1,2,3,4,5 = simple out is " collage day";
+//you put the value 6,7,= out put is "half holyday = and tommarow full holyday";
+//put the value out of range 1 to 7 complire give the value "please ivalide int" simple output;
+
+
+
+

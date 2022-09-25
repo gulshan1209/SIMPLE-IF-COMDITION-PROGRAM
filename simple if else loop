@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    int a=5;
+	    int b=6;
+	    if(a==b)
+	    System.out.println("yes");
+	    else
+	    System.out.println("no");
+	    
+	}
+}
+
+//output is no;
+//but put the value b=5 sho ans = yes try it right now

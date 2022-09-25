@@ -1,0 +1,19 @@
+class Main {
+    public static void main (String[] args)
+    {
+        int a=7;
+        int b=4;
+        if (a==b)
+        System.out.println("a");
+     else   if(a<=b)
+    System.out. println("b");
+    
+        else 
+        System.out.println("gadhene ans kuch nhi hi");
+    }
+}
+
+//print the else value because any condition is no true
+
+
+//jab koi bhi condition true nahi hogi to else ki value print karega

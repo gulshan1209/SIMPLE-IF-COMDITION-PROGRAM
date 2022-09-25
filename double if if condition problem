@@ -1,0 +1,15 @@
+class Main {
+    public static void main (String[] args)
+    {
+        int a=7;
+        int b=4;
+        if (a>=b)
+        System.out.println("yes");
+        if(a<=b)
+    System.out. println("no");
+        
+    }
+}
+
+//simply use greater then & less opreator means a>=b ans print first condition
+//first condition ans is no true ans print seconf condition no

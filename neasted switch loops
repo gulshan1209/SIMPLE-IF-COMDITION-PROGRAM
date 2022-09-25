@@ -1,0 +1,61 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner s=new Scanner(System.in);
+	    int empId=s.nextInt();
+	    String department = s.next();
+	    
+	    switch(empId){
+	        case 1:
+	            System.out.println("gulshan");
+	           break;
+	            case 2:
+	                System.out.print("aadarsh");
+	                break;
+	            case 3:
+	                System.out.println("deepak");
+	                break;
+	        case 4:
+	            System.out.println("anish");
+	            
+	            
+	            switch (department) {
+	            
+	            case  "it":
+	            System.out.println("it companey");
+	            break;
+	            case "department":
+	            System.out.println("management department");
+	            break;
+	            case "network":
+	            System.out.println("network department");
+	            break;
+	            case
+	            "travel":
+	            System.out.println("car travel");
+	            break;
+	            default:
+	            System.out.println("please invalide case");
+	            
+	            
+	            
+	            }
+	           break;
+	            default:
+	            System.out.println("envalide case");
+	       
+	    }
+	    
+//		System.out.println("Hello World");
+	}
+}
+    
+    //in this program just input case no.. and empId case and department  name     are    will give the 
+    // ex,:-  means case  4  and department it de de;
+    
+    
+    
+    
+    
+    

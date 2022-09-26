@@ -1,0 +1,21 @@
+import java .util.Scanner;
+
+class Main 
+{
+    
+public static void main (String[] args) {
+    /* code */
+    Scanner s=new Scanner(System.in);
+    System.out.println("enter your age");
+    int t=s.nextInt();   
+    
+    System.out.println(" enter your name");
+    String h = s.nextLine(); //String h=s.next();
+    System.out.println(" my age is "+ t + " . and my name " + h);
+    
+    // this code only excute your age because your age is 22 so their are two no.. of int variable
+    // and string ko ek no.. nahi lagta ye do hi no.. lagege isaliye ye pahle hi exucte ho jayega
+    // but aap jav nextline ke piche jo camment use run karege to sahi hoga run
+    // usake aage bale ko commen out kr de
+    
+}}
